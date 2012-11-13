@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Copyright (c) 2012 Rally Software Development Corp. All rights reserved -->
+<html>
+<head>
+  <title>BuildDashboard</title>
+  <meta name="Name" content="App: BuildDashboard" />
+  <meta name="Version" content="2012.11.12" />
+  <meta name="Vendor" content="Rally Software" />
+
+  <script type="text/javascript" src="/apps/1.32/sdk.js"></script>
+
+  <script type="text/javascript">
+    function onLoad() {
+      dojo.require("dojox.charting.Chart2D");
+      dojo.require("dojox.charting.widget.Legend");
+      dojo.require("dojox.charting.Theme");
+      dojo.require("dojox.charting.action2d.Tooltip");
+
+      var appCustom = new BuildDashboard();
+      appCustom.display(dojo.body());
+    }
+
+    rally.addOnLoad(onLoad);
+  </script>
+</head>
+
+<body>
+  <div id="buildDefTable"></div>
+  <div id="buildTrends"></div>
+</body>
+</html>
