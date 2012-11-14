@@ -41,4 +41,4 @@ Available Rakefile tasks are:
 
 ## License
 
-Kanban is released under the MIT license.  See the file [LICENSE](https://raw.github.com/RallyApps/Kanban/master/LICENSE) for the full text.
+BuildDashboard is released under the MIT license.  See the file [LICENSE](https://raw.github.com/RallyApps/Kanban/master/LICENSE) for the full text.
